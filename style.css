@@ -1,0 +1,25 @@
+* {
+  font-family: "Kumbh Sans", sans-serif;
+}
+body {
+  display: flex;
+  padding: 10vh;
+  justify-content: center;
+}
+#root {
+  display: grid;
+  grid-template: repeat(3, 100px) / repeat(3, 100px);
+}
+span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  cursor: pointer;
+}
+p {
+  display: inline-block;
+}
+button {
+  margin-left: 50px;
+}
